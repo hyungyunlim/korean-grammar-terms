@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 처리방침 - 한글 맞춤법 검사기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f7fa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: -30px auto 60px;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin: 40px 0 20px;
+            color: #1a1a1a;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin: 25px 0 15px;
+            color: #333;
+        }
+        
+        p, li {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        ul {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+            font-size: 14px;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 700px) {
+            .container {
+                margin: -20px 20px 40px;
+                padding: 30px;
+            }
+            
+            .header h1 {
+                font-size: 26px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>개인정보 처리방침</h1>
+        <p>시행일: 2024년 12월 1일</p>
+    </div>
+    
+    <div class="container">
+        <h2>1. 개인정보 수집 항목 및 목적</h2>
+        <p>한글 맞춤법 검사기(이하 "앱")는 사용자의 개인정보를 최소한으로 수집하며, 수집된 정보는 서비스 제공 목적으로만 사용됩니다.</p>
+        
+        <h3>수집하는 정보</h3>
+        <ul>
+            <li><strong>기기 정보:</strong> 기기 식별자 (트라이얼 기간 관리용)</li>
+            <li><strong>사용 데이터:</strong> 앱 사용 빈도, 검사 횟수 (서비스 개선용)</li>
+            <li><strong>구매 정보:</strong> App Store 구독 상태 (프리미엄 서비스 제공용)</li>
+        </ul>
+        
+        <div class="highlight">
+            <strong>⚠️ 중요:</strong> 앱은 사용자가 입력한 텍스트를 서버에 저장하지 않습니다. 
+            모든 문법 검사는 실시간으로 처리되며, 검사 완료 후 즉시 삭제됩니다.
+        </div>
+        
+        <h2>2. 개인정보의 처리 및 보유 기간</h2>
+        <ul>
+            <li>트라이얼 정보: 앱 삭제 시까지 로컬 저장</li>
+            <li>구독 정보: Apple이 관리하며, 구독 취소 시 자동 삭제</li>
+            <li>입력 텍스트: 저장하지 않음 (실시간 처리 후 즉시 삭제)</li>
+        </ul>
+        
+        <h2>3. 개인정보의 제3자 제공</h2>
+        <p>앱은 다음의 경우를 제외하고 사용자의 개인정보를 제3자에게 제공하지 않습니다:</p>
+        <ul>
+            <li>사용자의 명시적인 동의가 있는 경우</li>
+            <li>법령의 규정에 의거하거나 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
+        </ul>
+        
+        <h2>4. 개인정보 보호를 위한 기술적 조치</h2>
+        <ul>
+            <li>모든 통신은 HTTPS 암호화 프로토콜 사용</li>
+            <li>민감한 정보는 macOS Keychain에 암호화 저장</li>
+            <li>서버에 텍스트 저장 없이 실시간 처리</li>
+            <li>정기적인 보안 업데이트 실시</li>
+        </ul>
+        
+        <h2>5. 사용자의 권리</h2>
+        <p>사용자는 언제든지 다음의 권리를 행사할 수 있습니다:</p>
+        <ul>
+            <li>개인정보 열람 요구</li>
+            <li>개인정보 정정·삭제 요구</li>
+            <li>개인정보 처리 정지 요구</li>
+        </ul>
+        <p>권리 행사는 이메일(hyungyunlim@gmail.com)을 통해 요청할 수 있습니다.</p>
+        
+        <h2>6. 아동의 개인정보 보호</h2>
+        <p>앱은 만 14세 미만 아동의 개인정보를 수집하지 않습니다. 
+        만 14세 미만 아동의 개인정보가 수집된 사실을 인지한 경우 즉시 해당 정보를 삭제하겠습니다.</p>
+        
+        <h2>7. 개인정보 보호책임자</h2>
+        <div class="highlight">
+            <p><strong>성명:</strong> 임형윤 (Hyungyun Lim)</p>
+            <p><strong>이메일:</strong> hyungyunlim@gmail.com</p>
+            <p><strong>역할:</strong> 개인정보 보호 총괄</p>
+        </div>
+        
+        <h2>8. 개인정보 처리방침 변경</h2>
+        <p>이 개인정보 처리방침은 법령이나 서비스의 변경사항을 반영하기 위해 수정될 수 있습니다. 
+        변경 시 앱 내 공지사항을 통해 사전 고지하며, 중요한 변경사항의 경우 30일 전에 고지합니다.</p>
+        
+        <h2>9. 쿠키 사용</h2>
+        <p>앱은 웹 기반 쿠키를 사용하지 않습니다.</p>
+        
+        <h2>10. 문의처</h2>
+        <p>개인정보 처리에 관한 문의사항이 있으신 경우 아래 연락처로 문의해 주시기 바랍니다:</p>
+        <ul>
+            <li>이메일: hyungyunlim@gmail.com</li>
+            <li>앱 내 설정 > 문의하기</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <p><a href="index.html">← 돌아가기</a></p>
+        <p style="margin-top: 20px;">© 2024 Hyungyun Lim. All rights reserved.</p>
+    </div>
+</body>
+</html>
